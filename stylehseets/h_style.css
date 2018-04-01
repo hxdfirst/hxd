@@ -1,0 +1,54 @@
+ *{
+	margin: 0;
+	padding: 0;
+	}
+	#hu{
+		width: 100%;
+		height: 100vh;
+	}
+	#banner{
+		height: 300px;
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#banner li{
+		list-style: none;
+		width: 20%;
+		height: 150px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+  #banner	li img{
+		width: 65%;
+		height: 100%;
+	}
+  #banner	li span{
+		font-size: 20px;
+	}
+	#qianggou{
+		height: 300px;
+		width: 100%;
+		display: flex;
+		margin-top: 20px;
+		
+	}
+	.qg_left,.qg_right{
+		width: 50%;
+		padding-left: 80px;
+	}
+	
+	#qianggou h1{color: #FF0000;}
+	#qianggou p{
+		font-size: 18px;
+		color: #9D9D9D;
+		margin: 10px 0;
+	}
+	#qianggou span{
+		color:#DF5000 ;
+	}
+		#qianggou img{
+			position: absolute;
+		}
